@@ -1,0 +1,90 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.container1, .Box {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.UserBtn, .btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.UserBtn:hover, .btn:hover {
+  background-color: #0056b3;
+}
+
+.Form-con {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.Label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.Data {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.success {
+  color: #28a745;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.output {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
